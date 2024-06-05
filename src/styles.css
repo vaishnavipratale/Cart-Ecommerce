@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.product-listing, .cart, .checkout {
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.product-card h2, .cart-item h2, .checkout-item h2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.product-card p, .cart-item p, .checkout-item p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.product-card input {
+  width: 60px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.product-card button, .checkout-button, .back-button, .confirm button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product-card button:hover, .checkout-button:hover, .back-button:hover, .confirm button:hover {
+  background-color: #218838;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.checkout-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.confirm {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.confirm button {
+  width: 15%;
+}
